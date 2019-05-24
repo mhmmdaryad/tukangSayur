@@ -12,6 +12,7 @@ public class driver {
         System.out.println("awang");
         Scanner s = new (System.in);
         System.out.println("kk");
+        //ini pute
     }
 
 }
