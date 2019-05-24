@@ -9,8 +9,7 @@ public class driver {
         String ojek;
 
         new halamanAwal().pilihan();
-        System.out.println("merge");
-       
+        System.out.println("awang");
         Scanner s = new (System.in);
         System.out.println("kk");
         ;;
@@ -18,4 +17,5 @@ public class driver {
 
 
     }
+
 }
