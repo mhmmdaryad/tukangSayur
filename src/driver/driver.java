@@ -2,6 +2,8 @@ package driver;
 
 import halamanAwal.halamanAwal;
 
+import java.util.Scanner;
+
 public class driver {
     public static void main(String[] args) {
         new halamanAwal().pilihan();
@@ -10,5 +12,6 @@ public class driver {
         System.out.println("oyi");
         System.out.println();
         System.out.println();
+        Scanner s = new (System.in);
     }
 }
