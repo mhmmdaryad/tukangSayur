@@ -16,6 +16,7 @@ public class halamanAwal {
         Scanner s = new Scanner(System.in);
         System.out.println("1. Beli Sayur");
         System.out.println("2. Daftar Sayur di kulkas");
+        System.out.println("3. Daftar hidup");
         opsi = Integer.parseInt(s.next());
 
         switch (opsi) {
