@@ -9,10 +9,10 @@ public class driver {
       //iniwien
         System.out.println("Wien");
         new halamanAwal().pilihan();
-        System.out.println("merge");
-
+        System.out.println("awang");
         Scanner s = new (System.in);
         System.out.println("kk");
 
     }
+
 }
