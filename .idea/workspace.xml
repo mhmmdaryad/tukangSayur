@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
     <list default="true" id="506ebcab-8eeb-43a9-ba44-aac911869969" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
       <change beforePath="$PROJECT_DIR$/src/driver/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/driver/driver.java" afterDir="false" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
     </list>
 =======
     <list default="true" id="506ebcab-8eeb-43a9-ba44-aac911869969" name="Default Changelist" comment="" />
@@ -16,7 +23,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
     <leaf>
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/driver/driver.java">
 <<<<<<< HEAD
@@ -50,6 +64,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +87,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+=======
+=======
       <pane id="Scope" />
       <pane id="PackagesPane" />
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,12 +137,27 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
+=======
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558119663816" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558170764931" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558119663816" />
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -175,10 +213,19 @@
       <updated>1558119087169</updated>
       <workItem from="1558119090592" duration="527000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <workItem from="1558170933417" duration="460000" />
+      <workItem from="1558189618044" duration="1124000" />
+=======
+      <workItem from="1558169607442" duration="1152000" />
+      <workItem from="1558680453377" duration="242000" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
+=======
       <workItem from="1558169607442" duration="1152000" />
       <workItem from="1558680453377" duration="487000" />
 =======
 >>>>>>> 32f228b68e930b6cbacb303dd08e127f4c54c8d6
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
     </task>
     <task id="LOCAL-00001" summary="contoh">
       <created>1558680711947</created>
@@ -192,14 +239,28 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2111000" />
+=======
+    <option name="totallyTimeSpent" value="1921000" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
+=======
     <option name="totallyTimeSpent" value="2166000" />
 =======
     <option name="totallyTimeSpent" value="527000" />
 >>>>>>> 32f228b68e930b6cbacb303dd08e127f4c54c8d6
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26059654" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
+=======
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
@@ -207,6 +268,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -243,8 +305,18 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/driver/driver.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
+=======
         <state relative-caret-position="153">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+>>>>>>> 2f16b3eb297b128095466fe18f5d00d9a713fcee
         </state>
       </provider>
 =======

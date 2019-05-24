@@ -8,5 +8,7 @@ public class driver {
 
         System.out.println("test");
         System.out.println("oyi");
+        System.out.println();
+        System.out.println();
     }
 }
