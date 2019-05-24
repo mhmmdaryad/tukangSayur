@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="506ebcab-8eeb-43a9-ba44-aac911869969" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/driver/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/driver/driver.java" afterDir="false" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +16,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/driver/driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/halamanAwal/halamanAwal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/menuBeli/menu.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/isiKulkas/tampilkan.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,11 +59,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/halamanAwal/halamanAwal.java" />
         <option value="$PROJECT_DIR$/src/isiKulkas/tampilkan.java" />
+        <option value="$PROJECT_DIR$/src/driver/driver.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="618" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -35,15 +73,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+=======
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tukangSayur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukangSayur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukangSayur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukangSayur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukangSayur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukangSayur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukangSayur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukangSayur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="halamanAwal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukangSayur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukangSayur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="isiKulkas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tukangSayur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tukangSayur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="menuBeli" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558119663816" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558170764931" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -99,18 +186,32 @@
       <option name="presentableId" value="Default" />
       <updated>1558119087169</updated>
       <workItem from="1558119090592" duration="527000" />
+<<<<<<< HEAD
       <workItem from="1558170933417" duration="460000" />
       <workItem from="1558189618044" duration="1124000" />
+=======
+      <workItem from="1558169607442" duration="1152000" />
+      <workItem from="1558680453377" duration="242000" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2111000" />
+=======
+    <option name="totallyTimeSpent" value="1921000" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26059654" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -148,8 +249,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/driver/driver.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="153">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+>>>>>>> 708afea929512ca718fc442d5abb2a5be3f19190
         </state>
       </provider>
     </entry>
