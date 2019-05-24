@@ -13,7 +13,6 @@ public class driver {
         Scanner s = new (System.in);
         System.out.println("kk");
 
-
     }
 
 }
