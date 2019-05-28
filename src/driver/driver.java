@@ -1,8 +1,6 @@
 package driver;
 
-import halamanAwal.halamanAwal;
 
-import java.util.Scanner;
 
 public class driver {
     public static void main(String[] args) {
@@ -12,8 +10,7 @@ public class driver {
         System.out.println("awang");
         Scanner s = new (System.in);
         System.out.println("kk");
-        //WIEN JELEK
-        //ini mande
+
     }
 
 }
