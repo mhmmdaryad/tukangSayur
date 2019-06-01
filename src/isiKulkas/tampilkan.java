@@ -1,8 +1,11 @@
 package isiKulkas;
+import java.util.Scanner;
 
 public class tampilkan {
     public void isiKulkas(){
-        // ArrayList<>.copyOf(isiKulkas();)
-        System.out.println("AYAM");
+        int stock;
+        String nama;
+
+        Scanner t = new Scanner(System.in);
     }
 }

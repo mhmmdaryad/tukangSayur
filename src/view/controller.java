@@ -20,6 +20,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class controller implements Initializable {
+
     @FXML
     private Button tombolDaftarPembeli;
     @FXML
