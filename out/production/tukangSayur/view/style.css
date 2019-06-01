@@ -19,3 +19,6 @@
 .buttonMini:hover{
     -fx-background-color: #E5E5E5;
 }
+.backgroundPane{
+    -fx-background-color: #FFFFFF;
+}
