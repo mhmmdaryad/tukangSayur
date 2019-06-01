@@ -20,7 +20,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class controller implements Initializable {
-
+    @FXML
+    private Button tombolDaftarPembeli;
     @FXML
     private Button closeButton;
 
@@ -42,7 +43,14 @@ public class controller implements Initializable {
 
     }
 
+    @FXML
+    public void home(javafx.event.ActionEvent actionEvent) throws IOException {
+
+    }
+
+    @FXML
     public void close(javafx.event.ActionEvent actionEvent) throws IOException {
+        Stage stage = (Stage) anchorPane.getScene().getWindow();
         stage.close();
     }
 
