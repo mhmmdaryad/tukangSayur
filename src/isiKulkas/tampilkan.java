@@ -7,5 +7,6 @@ public class tampilkan {
         String nama;
 
         Scanner t = new Scanner(System.in);
+        System.out.println("1. Ikan");
     }
 }
