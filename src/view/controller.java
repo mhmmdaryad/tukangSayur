@@ -23,6 +23,11 @@ import java.util.logging.Logger;
 
 public class controller implements Initializable {
 
+<<<<<<< HEAD
+=======
+    @FXML
+    private Button tombolDaftarPembeli;
+>>>>>>> ca861c40675b6299682ce3cdb456d2d296dbeffd
     @FXML
     private Button closeButton;
 
