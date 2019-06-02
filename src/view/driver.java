@@ -5,13 +5,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
-public class utama extends Application {
+public class driver extends Application {
     private double x, y;
     private static BorderPane mainLayout;
 
@@ -40,7 +39,7 @@ public class utama extends Application {
 
     public static void showDaftar() throws IOException{
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(utama.class.getResource("view/daftar.fxml"));
+        loader.setLocation(driver.class.getResource("view/daftar.fxml"));
         BorderPane daftar = loader.load();
         mainLayout.setCenter(daftar);
     }
