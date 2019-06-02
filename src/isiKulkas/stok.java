@@ -1,12 +1,10 @@
 package isiKulkas;
-import java.util.Scanner;
 
-public class tampilkan {
+public class stok {
 
     private int stock;
     private String nama;
-    public void isiKulkas(){
-        Scanner t = new Scanner(System.in);
+
 
         public void setStock(int stock){
             this.stock = stock;
@@ -20,11 +18,7 @@ public class tampilkan {
             return this.stock;
         }
 
-        public String GetNama(){
+        public String getNama(){
             return this.nama;
         }
-
-        System.out.println("1. Ikan");
-        System.out.println("2. ");
-    }
 }
