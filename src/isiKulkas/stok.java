@@ -15,10 +15,10 @@ public class stok {
         }
 
         public int getStock(){
-            return this.stock;
+            return stock;
         }
 
         public String getNama(){
-            return this.nama;
+            return nama;
         }
 }
