@@ -13,8 +13,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.collections.*?>
 
 
+<?import java.lang.String?>
 <AnchorPane prefHeight="505.0" prefWidth="900.0" styleClass="backgroundPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller">
    <children>
       <Pane prefHeight="505.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -74,7 +76,48 @@
                         <Font name="Keep Calm Medium" size="12.0" />
                      </font>
                   </Label>
-                  <ComboBox layoutX="117.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="117.0" />
+                  <ComboBox layoutX="117.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="117.0" promptText="PROVINSI" >
+                     <items>
+                        <FXCollections fx:factory="observableArrayList">
+                        <String fx:value = "Aceh" />
+                        <String fx:value = "Sumatera Utara" />
+                           <String fx:value = "Sumatera Barat" />
+                           <String fx:value = "Sumatera Selatan" />
+                           <String fx:value = "Riau" />
+                           <String fx:value = "Kepulauan Riau" />
+                           <String fx:value = "Jambi" />
+                           <String fx:value = "Bangka Belitung" />
+                           <String fx:value = "Bengkulu" />
+                           <String fx:value = "Lampung" />
+                           <String fx:value = "DKI Jakarta" />
+                           <String fx:value = "Banten" />
+                           <String fx:value = "Jawa Tengah" />
+                           <String fx:value = "Jawa Timur" />
+                           <String fx:value = "Jawa Barat" />
+                           <String fx:value = "Daerah Istimewa Yogyakarta" />
+                           <String fx:value = "Bali" />
+                           <String fx:value = "Nusa Tenggara Barat" />
+                           <String fx:value = "Nusa Tenggara Timur" />
+                           <String fx:value = "Kalimantan Tengah" />
+                           <String fx:value = "Kalimantan Timur" />
+                           <String fx:value = "Kalimantan Barat" />
+                           <String fx:value = "Kalimantan Utara" />
+                           <String fx:value = "Kalimantan Selatan" />
+                           <String fx:value = "Sulawesi Barat" />
+                           <String fx:value = "Sulawesi Utara" />
+                           <String fx:value = "Sulawesi Tengah" />
+                           <String fx:value = "Sulawesi Tenggara" />
+                           <String fx:value = "Sulawesi Selatan" />
+                           <String fx:value = "Gorontalo" />
+                           <String fx:value = "Maluku" />
+                           <String fx:value = "Maluku Utara" />
+                           <String fx:value = "Papua" />
+                           <String fx:value = "Papua Barat" />
+                        </FXCollections>
+                     </items>
+                  </ComboBox>
+
+
                   <Label layoutX="333.0" layoutY="197.0" text="Kota">
                      <font>
                         <Font name="Keep Calm Medium" size="12.0" />
