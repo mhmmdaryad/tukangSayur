@@ -102,6 +102,8 @@ public class controller implements Initializable {
     private Button jagungButton;
     @FXML
     private Button pepayaButton;
+    @FXML
+    private Button submitButton;
 
 
     @FXML

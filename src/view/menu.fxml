@@ -22,7 +22,7 @@
                   <TableColumn prefWidth="107.0" text="Total" />
               </columns>
             </TableView>
-            <Button layoutX="19.0" layoutY="418.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="367.0" text="Button" />
+            <Button fx:id="submitButton" layoutX="19.0" layoutY="418.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="367.0" text="Submit" />
             <TabPane layoutX="403.0" prefHeight="505.0" prefWidth="499.0" style="-fx-background-color: white; -fx-border-color: white;" tabClosingPolicy="UNAVAILABLE">
               <tabs>
                 <Tab text="SAYUR">
