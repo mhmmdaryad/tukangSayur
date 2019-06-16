@@ -31,22 +31,22 @@
                            <children>
                               <HBox layoutX="18.0" layoutY="21.0" prefHeight="100.0" prefWidth="464.0" AnchorPane.topAnchor="21.0">
                                  <children>
-                                    <Button fx:id="bayamButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="bayamButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Bayam">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="wortelButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="wortelButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Wortel">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="kacangpanjangButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="kacangpanjangButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Kacang Panjang">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="terongButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="terongButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Terong">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
@@ -58,22 +58,22 @@
                               </HBox>
                               <HBox layoutX="18.0" layoutY="292.0" prefHeight="100.0" prefWidth="464.0">
                                  <children>
-                                    <Button fx:id="kangkungButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="kangkungButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Kangkung">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="cabaiButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="cabaiButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Cabai">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="buncisButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="buncisButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Buncis">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="sawiButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="sawiButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Sawi">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
@@ -85,22 +85,22 @@
                               </HBox>
                               <HBox layoutX="18.0" layoutY="147.0" prefHeight="100.0" prefWidth="464.0">
                                  <children>
-                                    <Button fx:id="timunButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="timunButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Timun">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="kubisButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="kubisButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Kubis">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="brokoliButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="brokoliButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Brokoli">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="labuButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Button">
+                                    <Button fx:id="labuButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" text="Labu">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
@@ -120,22 +120,22 @@
                            <children>
                               <HBox prefHeight="100.0" prefWidth="464.0" AnchorPane.topAnchor="21.0">
                                  <children>
-                                    <Button fx:id="apelButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="apelButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Apel">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="jerukButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="jerukButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Jeruk">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="jagungButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="jagungButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Jagung">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
                                     </Button>
-                                    <Button fx:id="pepayaButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Button">
+                                    <Button fx:id="pepayaButton" mnemonicParsing="false" prefHeight="74.0" prefWidth="90.0" stylesheets="@style.css" text="Pepaya">
                                        <HBox.margin>
                                           <Insets left="20.0" />
                                        </HBox.margin>
