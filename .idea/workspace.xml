@@ -38,13 +38,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="376">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            <state relative-caret-position="122">
+              <caret line="656" column="68" selection-start-line="656" selection-start-column="68" selection-end-line="656" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/penjual.java">
+        <entry file="file://$PROJECT_DIR$/src/order/Order.java">
+        <entry file="file://$PROJECT_DIR$/src/Model/penjual.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             <state relative-caret-position="306">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
@@ -61,6 +74,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/penjual.java">
+        <entry file="file://$PROJECT_DIR$/src/view/daftar.fxml">
+      <entry file="file://$PROJECT_DIR$/src/view/daftar.fxml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/halamanAwal/halamanAwal.java">
         <entry file="file://$PROJECT_DIR$/src/isiKulkas/stok.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
