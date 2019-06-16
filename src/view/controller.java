@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.control.ComboBox;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
@@ -20,7 +21,7 @@ import java.util.logging.Logger;
 
 public class controller implements Initializable {
 
-    ObservableList<String> provinsilist  = FXCollections.observableArrayList();
+
 
     @FXML
     private Button tombolDaftarPembeli;
@@ -52,6 +53,28 @@ public class controller implements Initializable {
     public void home(javafx.event.ActionEvent actionEvent) throws IOException {
 
     }
+
+    //Halaman daftar
+
+    @FXML
+    private TextField textFieldNama;
+    @FXML
+    private TextField textFieldEmail;
+    @FXML
+    private  TextField textFieldNoTelp;
+    @FXML
+    private TextField textFieldKota;
+    @FXML
+    private  TextField textFieldAlamat;
+    @FXML
+    private  TextField textFieldUsername;
+    @FXML
+    private  TextField textFieldPassword;
+
+
+    @FXML
+    private ComboBox provinsi;
+    ObservableList<String> provinsilist  = FXCollections.observableArrayList(); //
 
     @FXML
     public void panelPenjualShow(javafx.event.ActionEvent actionEvent) throws IOException {
