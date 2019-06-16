@@ -22,13 +22,11 @@ import java.util.logging.Logger;
 public class controller implements Initializable {
 
 
-
     @FXML
     private Button tombolDaftarPembeli;
 
     @FXML
     private Button closeButton;
-
 
 
     @FXML
@@ -61,20 +59,20 @@ public class controller implements Initializable {
     @FXML
     private TextField textFieldEmail;
     @FXML
-    private  TextField textFieldNoTelp;
+    private TextField textFieldNoTelp;
     @FXML
     private TextField textFieldKota;
     @FXML
-    private  TextField textFieldAlamat;
+    private TextField textFieldAlamat;
     @FXML
-    private  TextField textFieldUsername;
+    private TextField textFieldUsername;
     @FXML
-    private  TextField textFieldPassword;
+    private TextField textFieldPassword;
 
 
     @FXML
     private ComboBox provinsi;
-    ObservableList<String> provinsilist  = FXCollections.observableArrayList(); //
+    ObservableList<String> provinsilist = FXCollections.observableArrayList(); //
 
     @FXML
     public void panelPenjualShow(javafx.event.ActionEvent actionEvent) throws IOException {
@@ -91,15 +89,21 @@ public class controller implements Initializable {
     public void goDaftar(javafx.event.ActionEvent actionEvent) throws IOException {
         Parent pane = FXMLLoader.load(getClass().getResource("daftar.fxml"));
         paneUtama.getChildren().setAll(pane);
-    //    loadUI("daftar");
+        //    loadUI("daftar");
     }
 
-    private void loadUI(String ui){
+    @FXML
+    public void goPesan(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent pane = FXMLLoader.load(getClass().getResource("menu.fxml"));
+        paneUtama.getChildren().setAll(pane);
+    }
+
+    private void loadUI(String ui) {
         Parent root;
         try {
-            root=FXMLLoader.load(getClass().getResource(ui+".fxml"));
-        }catch (IOException ex){
-            Logger.getLogger(controller.class.getName()).log(Level.SEVERE,null,ex);
+            root = FXMLLoader.load(getClass().getResource(ui + ".fxml"));
+        } catch (IOException ex) {
+            Logger.getLogger(controller.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }

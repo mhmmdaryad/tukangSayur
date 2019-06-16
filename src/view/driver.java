@@ -37,12 +37,12 @@ public class driver extends Application {
         primaryStage.show();
     }
 
-    public static void showDaftar() throws IOException{
+    /*public static void showDaftar() throws IOException{
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(driver.class.getResource("view/daftar.fxml"));
         BorderPane daftar = loader.load();
         mainLayout.setCenter(daftar);
-    }
+    }*/
 
     public static void main(String[] args) {
         launch(args);
