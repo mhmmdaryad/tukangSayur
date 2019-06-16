@@ -22,7 +22,7 @@
                   <Blend />
                </effect>
             </ImageView>
-            <Button layoutX="523.0" layoutY="39.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="92.0" stylesheets="@style.css" text="Pesanan" textFill="WHITE">
+            <Button layoutX="523.0" layoutY="39.0" mnemonicParsing="false" onAction="#goPesan" prefHeight="34.0" prefWidth="92.0" stylesheets="@style.css" text="Pesanan" textFill="WHITE">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
