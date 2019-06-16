@@ -1,5 +1,7 @@
 package view;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -18,12 +20,15 @@ import java.util.logging.Logger;
 
 public class controller implements Initializable {
 
+    ObservableList<String> provinsilist  = FXCollections.observableArrayList();
 
     @FXML
     private Button tombolDaftarPembeli;
 
     @FXML
     private Button closeButton;
+
+
 
     @FXML
     private AnchorPane anchorPane;
