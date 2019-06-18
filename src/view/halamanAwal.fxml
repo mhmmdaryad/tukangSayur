@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@image/tukangSayurUI.png" />
+               </image>
+               <effect>
+                  <Blend />
+               </effect>
+            </ImageView>
+            <Button layoutX="523.0" layoutY="39.0" mnemonicParsing="false" onAction="#goPesan" prefHeight="34.0" prefWidth="92.0" stylesheets="@style.css" text="Pesanan" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="623.0" layoutY="40.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="98.0" stylesheets="@style.css" text="Isi Kulkas" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="tombolDaftar" contentDisplay="TEXT_ONLY" layoutX="443.0" layoutY="40.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#goDaftar" stylesheets="@style.css" text="Daftar" textFill="WHITE">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="739.0" layoutY="38.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="139.0" style="-fx-border-color: #97CC3F; -fx-border-radius: 20; -fx-border-width: 2;" stylesheets="@style.css" text="Tentang Kami" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="tombolHome" layoutX="38.0" layoutY="16.0" mnemonicParsing="false" opacity="0.0" prefHeight="80.0" prefWidth="130.0" text="Button" />
+            <Button contentDisplay="TOP" graphicTextGap="0.0" layoutX="823.0" layoutY="-10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" styleClass="buttonMini" stylesheets="@style.css" text="_" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="GRATIS" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="tombolClose" layoutX="860.0" layoutY="-3.0" mnemonicParsing="false" onAction="#close" prefHeight="20.0" prefWidth="20.0" style="-fx-border-radius: 0;" styleClass="buttonClose" stylesheets="@style.css" text="X" textFill="WHITE">
+               <font>
+                  <Font name="The Bold Font" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="paneUtama" prefHeight="505.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="166.0" layoutY="244.0" text="atau" />
+            <Button layoutX="201.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" stylesheets="@style.css" text="Cek isi Kulkas" underline="true">
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="tombolPesan" cache="true" focusTraversable="false" layoutX="56.0" layoutY="239.0" mnemonicParsing="false" onAction="#goDaftar" prefHeight="27.0" prefWidth="89.0" style="-fx-border-radius: 20; -fx-border-color: #97CC3F;" stylesheets="@style.css" text="Pesan">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

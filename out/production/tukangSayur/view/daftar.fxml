@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="505.0" prefWidth="900.0" styleClass="backgroundPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller">
+   <children>
+      <Pane prefHeight="505.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+        <AnchorPane layoutY="-1.0" minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="505.0" prefWidth="900.0">
+               <children>
+                  <Label layoutX="537.0" layoutY="51.0" prefHeight="17.0" prefWidth="44.0" text="Email" AnchorPane.leftAnchor="537.0" AnchorPane.topAnchor="51.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="116.0" layoutY="306.0" text="Username" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="306.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="116.0" layoutY="52.0" text="Nama Depan" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="52.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="118.0" layoutY="347.0" text="Password" AnchorPane.leftAnchor="118.0" AnchorPane.topAnchor="347.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="114.0" layoutY="120.0" text="Jenis Kelamin" AnchorPane.leftAnchor="114.0" AnchorPane.topAnchor="120.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="538.0" layoutY="120.0" text="Alamat Lengkap" AnchorPane.leftAnchor="538.0" AnchorPane.topAnchor="120.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fieldNama" layoutX="116.0" layoutY="77.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="77.0" />
+                  <TextField layoutX="535.0" layoutY="77.0" prefHeight="25.0" prefWidth="230.0" promptText="example@gmail.com" AnchorPane.leftAnchor="535.0" />
+                  <RadioButton layoutX="118.0" layoutY="152.0" mnemonicParsing="false" text="Laki-Laki">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Mygroup" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton layoutX="207.0" layoutY="153.0" mnemonicParsing="false" text="Perempuan" toggleGroup="$Mygroup" />
+                  <TextField layoutX="238.0" layoutY="306.0" prefHeight="25.0" prefWidth="178.0" AnchorPane.leftAnchor="238.0" />
+                  <Label layoutX="336.0" layoutY="120.0" text="No. Telp" AnchorPane.leftAnchor="336.0" AnchorPane.topAnchor="120.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="504.0" layoutY="428.0" mnemonicParsing="false" onAction="#actionDaftar" prefHeight="25.0" prefWidth="102.0" style="-fx-border-color: #97CC3F;;" text="Daftar" />
+                  <Button layoutX="636.0" layoutY="429.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Batal" />
+                  <Label layoutX="118.0" layoutY="197.0" text="Provinsi">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <ComboBox layoutX="117.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" promptText="PROVINSI" AnchorPane.leftAnchor="117.0">
+                     <items>
+                        <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Aceh" />
+                        <String fx:value="Sumatera Utara" />
+                           <String fx:value="Sumatera Barat" />
+                           <String fx:value="Sumatera Selatan" />
+                           <String fx:value="Riau" />
+                           <String fx:value="Kepulauan Riau" />
+                           <String fx:value="Jambi" />
+                           <String fx:value="Bangka Belitung" />
+                           <String fx:value="Bengkulu" />
+                           <String fx:value="Lampung" />
+                           <String fx:value="DKI Jakarta" />
+                           <String fx:value="Banten" />
+                           <String fx:value="Jawa Tengah" />
+                           <String fx:value="Jawa Timur" />
+                           <String fx:value="Jawa Barat" />
+                           <String fx:value="Daerah Istimewa Yogyakarta" />
+                           <String fx:value="Bali" />
+                           <String fx:value="Nusa Tenggara Barat" />
+                           <String fx:value="Nusa Tenggara Timur" />
+                           <String fx:value="Kalimantan Tengah" />
+                           <String fx:value="Kalimantan Timur" />
+                           <String fx:value="Kalimantan Barat" />
+                           <String fx:value="Kalimantan Utara" />
+                           <String fx:value="Kalimantan Selatan" />
+                           <String fx:value="Sulawesi Barat" />
+                           <String fx:value="Sulawesi Utara" />
+                           <String fx:value="Sulawesi Tengah" />
+                           <String fx:value="Sulawesi Tenggara" />
+                           <String fx:value="Sulawesi Selatan" />
+                           <String fx:value="Gorontalo" />
+                           <String fx:value="Maluku" />
+                           <String fx:value="Maluku Utara" />
+                           <String fx:value="Papua" />
+                           <String fx:value="Papua Barat" />
+                        </FXCollections>
+                     </items>
+                  </ComboBox>
+
+
+                  <Label layoutX="333.0" layoutY="197.0" text="Kota">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <PasswordField layoutX="238.0" layoutY="347.0" prefHeight="25.0" prefWidth="178.0" AnchorPane.leftAnchor="238.0" />
+                  <TextArea layoutX="535.0" layoutY="147.0" prefHeight="100.0" prefWidth="230.0" AnchorPane.leftAnchor="535.0" />
+                  <Separator layoutX="118.0" layoutY="274.0" prefWidth="650.0" />
+                  <CheckBox layoutX="146.0" layoutY="408.0" mnemonicParsing="false" />
+                  <Label layoutX="173.0" layoutY="408.0" text="Saya telah membaca " />
+                  <Button layoutX="279.0" layoutY="404.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: transparent; -fx-text-fill: black;" text="syarat &amp; ketentuan" underline="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="173.0" layoutY="429.0" text="dan telah menyetujuinya" />
+                  <TextField layoutX="329.0" layoutY="148.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="329.0" />
+                  <TextField layoutX="328.0" layoutY="222.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="329.0" />
+                  <Separator layoutX="448.0" layoutY="290.0" orientation="VERTICAL" prefHeight="130.0" />
+                  <Label layoutX="474.0" layoutY="306.0" text="ID Penjual" AnchorPane.leftAnchor="474.0" AnchorPane.topAnchor="306.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="347.0" text="No. Telp Penjual" AnchorPane.leftAnchor="474.0" AnchorPane.topAnchor="347.0">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="597.0" layoutY="302.0" prefHeight="25.0" prefWidth="170.0" />
+                  <TextField layoutX="597.0" layoutY="344.0" prefHeight="25.0" prefWidth="170.0" />
+                  <DatePicker layoutX="324.0" layoutY="78.0" prefHeight="25.0" prefWidth="175.0" promptText="MM/DD/YYYY" AnchorPane.leftAnchor="329.0" AnchorPane.topAnchor="77.0" />
+                  <Label layoutX="334.0" layoutY="52.0" text="Tanggal Lahir">
+                     <font>
+                        <Font name="Keep Calm Medium" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
