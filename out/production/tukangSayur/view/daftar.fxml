@@ -54,7 +54,7 @@
                         <Font name="Keep Calm Medium" size="12.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="fieldNama" layoutX="116.0" layoutY="77.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="77.0" />
+                  <TextField fx:id="textFieldNama" layoutX="116.0" layoutY="77.0" prefHeight="25.0" prefWidth="175.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="77.0" />
                   <TextField layoutX="535.0" layoutY="77.0" prefHeight="25.0" prefWidth="230.0" promptText="example@gmail.com" AnchorPane.leftAnchor="535.0" />
                   <RadioButton layoutX="118.0" layoutY="152.0" mnemonicParsing="false" text="Laki-Laki">
                      <toggleGroup>
@@ -67,7 +67,7 @@
                         <Font name="Keep Calm Medium" size="12.0" />
                      </font>
                   </Label>
-                  <Button layoutX="504.0" layoutY="428.0" mnemonicParsing="false" onAction="#actionDaftar" prefHeight="25.0" prefWidth="102.0" style="-fx-border-color: #97CC3F;;" text="Daftar" />
+                  <Button layoutX="504.0" layoutY="428.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" style="-fx-border-color: #97CC3F;;" text="Daftar" />
                   <Button layoutX="636.0" layoutY="429.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Batal" />
                   <Label layoutX="118.0" layoutY="197.0" text="Provinsi">
                      <font>
