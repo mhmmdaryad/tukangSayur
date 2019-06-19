@@ -28,29 +28,44 @@ public class halamanAwal extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        buttonPesan = new javax.swing.JButton();
+        buttonDaftar = new javax.swing.JButton();
+        buttonMenu = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        jPanel1.setPreferredSize(new java.awt.Dimension(900, 600));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        buttonPesan.setText("Pesan");
+        buttonPesan.setOpaque(false);
+        jPanel1.add(buttonPesan, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 320, 100, -1));
+
+        buttonDaftar.setText("Daftar");
+        buttonDaftar.setOpaque(false);
+        jPanel1.add(buttonDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 30, 90, -1));
+
+        buttonMenu.setText("Menu");
+        buttonMenu.setOpaque(false);
+        jPanel1.add(buttonMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 30, 90, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/tukangSayurUI.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        jLabel1.setPreferredSize(new java.awt.Dimension(900, 600));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 604));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -92,6 +107,10 @@ public class halamanAwal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton buttonDaftar;
+    private javax.swing.JButton buttonMenu;
+    private javax.swing.JButton buttonPesan;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
