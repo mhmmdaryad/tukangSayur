@@ -5,6 +5,8 @@
  */
 package view;
 
+import java.util.Calendar;
+import java.util.Date;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -36,15 +38,15 @@ public class Menu extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
+        Kubistxt = new javax.swing.JButton();
+        Kangkungtxt = new javax.swing.JButton();
+        Cabaitxt = new javax.swing.JButton();
+        KacangPanjangtxt = new javax.swing.JButton();
+        Terongtxt = new javax.swing.JButton();
+        Tomattxt = new javax.swing.JButton();
+        Buncistxt = new javax.swing.JButton();
+        Worteltxt = new javax.swing.JButton();
+        Timuntxt = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         TableOrder = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
@@ -53,75 +55,75 @@ public class Menu extends javax.swing.JFrame {
 
         jPanel1.setPreferredSize(new java.awt.Dimension(900, 600));
 
-        jButton2.setText("jButton1");
-        jButton2.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        Kubistxt.setText("Kubis");
+        Kubistxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Kubistxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                KubistxtActionPerformed(evt);
             }
         });
 
-        jButton3.setText("jButton1");
-        jButton3.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        Kangkungtxt.setText("Kangkung");
+        Kangkungtxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Kangkungtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                KangkungtxtActionPerformed(evt);
             }
         });
 
-        jButton4.setText("jButton1");
-        jButton4.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        Cabaitxt.setText("Cabai");
+        Cabaitxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Cabaitxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                CabaitxtActionPerformed(evt);
             }
         });
 
-        jButton5.setText("jButton1");
-        jButton5.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        KacangPanjangtxt.setText("Kacang Panjang");
+        KacangPanjangtxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        KacangPanjangtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                KacangPanjangtxtActionPerformed(evt);
             }
         });
 
-        jButton6.setText("jButton1");
-        jButton6.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        Terongtxt.setText("Terong");
+        Terongtxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Terongtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                TerongtxtActionPerformed(evt);
             }
         });
 
-        jButton7.setText("jButton1");
-        jButton7.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        Tomattxt.setText("Tomat");
+        Tomattxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Tomattxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                TomattxtActionPerformed(evt);
             }
         });
 
-        jButton8.setText("jButton1");
-        jButton8.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        Buncistxt.setText("Buncis");
+        Buncistxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Buncistxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                BuncistxtActionPerformed(evt);
             }
         });
 
-        jButton9.setText("jButton1");
-        jButton9.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        Worteltxt.setText("Wortel");
+        Worteltxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Worteltxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                WorteltxtActionPerformed(evt);
             }
         });
 
-        jButton10.setText("jButton1");
-        jButton10.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        Timuntxt.setText("Timun");
+        Timuntxt.setPreferredSize(new java.awt.Dimension(50, 50));
+        Timuntxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                TimuntxtActionPerformed(evt);
             }
         });
 
@@ -138,7 +140,7 @@ public class Menu extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(TableOrder);
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Submit");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -152,23 +154,23 @@ public class Menu extends javax.swing.JFrame {
                 .addGap(54, 54, 54)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(54, 54, 54)
-                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(39, 39, 39)
-                        .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(54, 54, 54)
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(39, 39, 39)
-                        .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(54, 54, 54)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(39, 39, 39)
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(93, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -178,19 +180,19 @@ public class Menu extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(50, 50, 50)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(50, 50, 50)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addComponent(jButton1)
@@ -215,41 +217,59 @@ public class Menu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+    private void TimuntxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TimuntxtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+    }//GEN-LAST:event_TimuntxtActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void WorteltxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WorteltxtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_WorteltxtActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void BuncistxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuncistxtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event_BuncistxtActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void TomattxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TomattxtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_TomattxtActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void TerongtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TerongtxtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_TerongtxtActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void KacangPanjangtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KacangPanjangtxtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_KacangPanjangtxtActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    private void CabaitxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CabaitxtActionPerformed
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Cabaitxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
+    }//GEN-LAST:event_CabaitxtActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    private void KangkungtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KangkungtxtActionPerformed
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Kangkungtxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
+    }//GEN-LAST:event_KangkungtxtActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void KubistxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KubistxtActionPerformed
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Kubistxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
+    }//GEN-LAST:event_KubistxtActionPerformed
 
     /**
      * @param args the command line arguments
@@ -287,17 +307,17 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Buncistxt;
+    private javax.swing.JButton Cabaitxt;
+    private javax.swing.JButton KacangPanjangtxt;
+    private javax.swing.JButton Kangkungtxt;
+    private javax.swing.JButton Kubistxt;
     private javax.swing.JTable TableOrder;
+    private javax.swing.JButton Terongtxt;
+    private javax.swing.JButton Timuntxt;
+    private javax.swing.JButton Tomattxt;
+    private javax.swing.JButton Worteltxt;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
