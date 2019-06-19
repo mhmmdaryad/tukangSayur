@@ -7,6 +7,7 @@ package view;
 
 import java.util.Calendar;
 import java.util.Date;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -286,9 +287,13 @@ public class Menu extends javax.swing.JFrame {
     private void TimuntxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TimuntxtActionPerformed
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
+        int jumlah;
+        String input;
         
         String a = Timuntxt.getText();
         String b = hargaTimun.getText();
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
