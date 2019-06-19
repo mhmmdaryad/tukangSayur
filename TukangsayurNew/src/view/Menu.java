@@ -218,27 +218,63 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void TimuntxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TimuntxtActionPerformed
-        // TODO add your handling code here:
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Timuntxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
     }//GEN-LAST:event_TimuntxtActionPerformed
 
     private void WorteltxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WorteltxtActionPerformed
-        // TODO add your handling code here:
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Worteltxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
     }//GEN-LAST:event_WorteltxtActionPerformed
 
     private void BuncistxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuncistxtActionPerformed
-        // TODO add your handling code here:
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Buncistxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
     }//GEN-LAST:event_BuncistxtActionPerformed
 
     private void TomattxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TomattxtActionPerformed
-        // TODO add your handling code here:
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Tomattxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
     }//GEN-LAST:event_TomattxtActionPerformed
 
     private void TerongtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TerongtxtActionPerformed
-        // TODO add your handling code here:
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = Terongtxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
     }//GEN-LAST:event_TerongtxtActionPerformed
 
     private void KacangPanjangtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KacangPanjangtxtActionPerformed
-        // TODO add your handling code here:
+        Calendar c1 = Calendar.getInstance(); 
+        Date dateOne = c1.getTime(); 
+        
+        String a = KacangPanjangtxt.getText();
+        Date c = dateOne;
+        Object[] x = {a};
+        mdl.addRow(x);
     }//GEN-LAST:event_KacangPanjangtxtActionPerformed
 
     private void CabaitxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CabaitxtActionPerformed
