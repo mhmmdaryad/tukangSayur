@@ -1,10 +1,12 @@
-/*
+  /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 package view;
 
+import Model.*;
+import java.sql.Connection;
 import java.util.Calendar;
 import java.util.Date;
 import javax.swing.JOptionPane;
@@ -297,6 +299,17 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        
+            try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Timuntxt.getText()+ "','" + hargaTimun.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_TimuntxtActionPerformed
 
     private void WorteltxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WorteltxtActionPerformed
@@ -308,6 +321,17 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Worteltxt.getText()+ "','" + hargaWortel.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_WorteltxtActionPerformed
 
     private void BuncistxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuncistxtActionPerformed
@@ -319,6 +343,16 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Buncistxt.getText()+ "','" + hargaBuncis.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_BuncistxtActionPerformed
 
     private void TomattxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TomattxtActionPerformed
@@ -330,6 +364,16 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Tomattxt.getText()+ "','" + hargaTomat.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_TomattxtActionPerformed
 
     private void TerongtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TerongtxtActionPerformed
@@ -341,6 +385,16 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Terongtxt.getText()+ "','" + hargaTerong.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_TerongtxtActionPerformed
 
     private void KacangPanjangtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KacangPanjangtxtActionPerformed
@@ -352,6 +406,16 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +KacangPanjangtxt.getText()+ "','" + KacangPanjang.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_KacangPanjangtxtActionPerformed
 
     private void CabaitxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CabaitxtActionPerformed
@@ -362,7 +426,17 @@ public class Menu extends javax.swing.JFrame {
         String b = hargaCabai.getText();
         Date c = dateOne;
         Object[] x = {a, b, c};
-        mdl.addRow(x);
+        mdl.addRow(x); 
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Cabaitxt.getText()+ "','" + hargaCabai.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_CabaitxtActionPerformed
 
     private void KangkungtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KangkungtxtActionPerformed
@@ -374,6 +448,16 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Kangkungtxt.getText()+ "','" + hargaKangkung.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_KangkungtxtActionPerformed
 
     private void KubistxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KubistxtActionPerformed
@@ -385,6 +469,16 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Kubistxt.getText()+ "','" + hargaKubis.getText()+ "','" +dateOne+ "')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
     }//GEN-LAST:event_KubistxtActionPerformed
 
     /**
