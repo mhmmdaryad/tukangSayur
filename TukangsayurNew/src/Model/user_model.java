@@ -16,6 +16,22 @@ public class user_model {
     String nohp;
     String alamat;
 
+    public String getNohp() {
+        return nohp;
+    }
+
+    public void setNohp(String nohp) {
+        this.nohp = nohp;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
     
 
     public String getId_user() {
