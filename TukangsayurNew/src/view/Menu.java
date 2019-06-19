@@ -50,6 +50,15 @@ public class Menu extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         TableOrder = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
+        hargaKubis = new javax.swing.JLabel();
+        hargaKangkung = new javax.swing.JLabel();
+        hargaCabai = new javax.swing.JLabel();
+        hargaKacangPanjang = new javax.swing.JLabel();
+        hargaTerong = new javax.swing.JLabel();
+        hargaTomat = new javax.swing.JLabel();
+        hargaBuncis = new javax.swing.JLabel();
+        hargaWortel = new javax.swing.JLabel();
+        hargaTimun = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -142,6 +151,24 @@ public class Menu extends javax.swing.JFrame {
 
         jButton1.setText("Submit");
 
+        hargaKubis.setText("3000");
+
+        hargaKangkung.setText("3000");
+
+        hargaCabai.setText("12000");
+
+        hargaKacangPanjang.setText("2000");
+
+        hargaTerong.setText("2500");
+
+        hargaTomat.setText("6000");
+
+        hargaBuncis.setText("7000");
+
+        hargaWortel.setText("7500");
+
+        hargaTimun.setText("2500");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -151,26 +178,49 @@ public class Menu extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 377, Short.MAX_VALUE))
-                .addGap(54, 54, 54)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(54, 54, 54)
-                        .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(39, 39, 39)
-                        .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(54, 54, 54)
+                                .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(39, 39, 39)
+                                .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(54, 54, 54)
+                                .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(39, 39, 39)
+                                .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(54, 54, 54)
+                                .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(39, 39, 39)
+                                .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(54, 54, 54)
-                        .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(39, 39, 39)
-                        .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(85, 85, 85)
+                        .addComponent(hargaKubis)
+                        .addGap(117, 117, 117)
+                        .addComponent(hargaKangkung)
+                        .addGap(103, 103, 103)
+                        .addComponent(hargaCabai))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(54, 54, 54)
-                        .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(39, 39, 39)
-                        .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(89, 89, 89)
+                        .addComponent(hargaKacangPanjang)
+                        .addGap(114, 114, 114)
+                        .addComponent(hargaTerong)
+                        .addGap(104, 104, 104)
+                        .addComponent(hargaTomat))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(81, 81, 81)
+                        .addComponent(hargaBuncis)
+                        .addGap(124, 124, 124)
+                        .addComponent(hargaWortel)
+                        .addGap(105, 105, 105)
+                        .addComponent(hargaTimun)))
                 .addContainerGap(93, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -183,16 +233,31 @@ public class Menu extends javax.swing.JFrame {
                             .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(50, 50, 50)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(hargaKubis)
+                            .addComponent(hargaKangkung)
+                            .addComponent(hargaCabai))
+                        .addGap(30, 30, 30)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(50, 50, 50)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(hargaKacangPanjang)
+                            .addComponent(hargaTerong)
+                            .addComponent(hargaTomat))
+                        .addGap(30, 30, 30)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(hargaBuncis)
+                            .addComponent(hargaWortel)
+                            .addComponent(hargaTimun)))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addComponent(jButton1)
@@ -204,12 +269,13 @@ public class Menu extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
@@ -222,8 +288,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Timuntxt.getText();
+        String b = hargaTimun.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_TimuntxtActionPerformed
 
@@ -232,8 +299,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Worteltxt.getText();
+        String b = hargaWortel.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_WorteltxtActionPerformed
 
@@ -242,8 +310,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Buncistxt.getText();
+        String b = hargaBuncis.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_BuncistxtActionPerformed
 
@@ -252,8 +321,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Tomattxt.getText();
+        String b = hargaTomat.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_TomattxtActionPerformed
 
@@ -262,8 +332,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Terongtxt.getText();
+        String b = hargaTerong.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_TerongtxtActionPerformed
 
@@ -272,8 +343,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = KacangPanjangtxt.getText();
+        String b = hargaKacangPanjang.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_KacangPanjangtxtActionPerformed
 
@@ -282,8 +354,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Cabaitxt.getText();
+        String b = hargaCabai.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_CabaitxtActionPerformed
 
@@ -292,8 +365,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Kangkungtxt.getText();
+        String b = hargaKangkung.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_KangkungtxtActionPerformed
 
@@ -302,8 +376,9 @@ public class Menu extends javax.swing.JFrame {
         Date dateOne = c1.getTime(); 
         
         String a = Kubistxt.getText();
+        String b = hargaKubis.getText();
         Date c = dateOne;
-        Object[] x = {a};
+        Object[] x = {a, b, c};
         mdl.addRow(x);
     }//GEN-LAST:event_KubistxtActionPerformed
 
@@ -353,6 +428,15 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton Timuntxt;
     private javax.swing.JButton Tomattxt;
     private javax.swing.JButton Worteltxt;
+    private javax.swing.JLabel hargaBuncis;
+    private javax.swing.JLabel hargaCabai;
+    private javax.swing.JLabel hargaKacangPanjang;
+    private javax.swing.JLabel hargaKangkung;
+    private javax.swing.JLabel hargaKubis;
+    private javax.swing.JLabel hargaTerong;
+    private javax.swing.JLabel hargaTimun;
+    private javax.swing.JLabel hargaTomat;
+    private javax.swing.JLabel hargaWortel;
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
