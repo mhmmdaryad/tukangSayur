@@ -13,6 +13,10 @@ public class user_model {
     
     String id_user;
     String nama;
+    String nohp;
+    String alamat;
+
+    
 
     public String getId_user() {
         return id_user;
