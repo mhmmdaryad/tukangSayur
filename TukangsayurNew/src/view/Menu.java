@@ -25,6 +25,7 @@ public class Menu extends javax.swing.JFrame {
         mdl.addColumn("Nama");
         mdl.addColumn("Harga");
         mdl.addColumn("Waktu");
+        mdl.addColumn("jumlah");
         //Proses SetModel
         TableOrder.setModel(mdl);
     }
@@ -295,7 +296,7 @@ public class Menu extends javax.swing.JFrame {
         input = JOptionPane.showInputDialog("Masukkan jumlah : ");
         jumlah = Integer.parseInt(input);
         Date c = dateOne;
-        Object[] x = {a, b, c};
+        Object[] x = {a, b, c, input};
         mdl.addRow(x);
     }//GEN-LAST:event_TimuntxtActionPerformed
 
@@ -305,6 +306,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Worteltxt.getText();
         String b = hargaWortel.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -316,6 +323,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Buncistxt.getText();
         String b = hargaBuncis.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -327,6 +340,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Tomattxt.getText();
         String b = hargaTomat.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -338,6 +357,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Terongtxt.getText();
         String b = hargaTerong.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -349,6 +374,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = KacangPanjangtxt.getText();
         String b = hargaKacangPanjang.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -360,6 +391,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Cabaitxt.getText();
         String b = hargaCabai.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -371,6 +408,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Kangkungtxt.getText();
         String b = hargaKangkung.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
@@ -382,6 +425,12 @@ public class Menu extends javax.swing.JFrame {
         
         String a = Kubistxt.getText();
         String b = hargaKubis.getText();
+        
+        int jumlah;
+        String input;
+        input = JOptionPane.showInputDialog("Masukkan jumlah : ");
+        jumlah = Integer.parseInt(input);
+        
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
