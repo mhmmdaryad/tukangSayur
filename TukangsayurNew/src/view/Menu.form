@@ -24,14 +24,15 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
@@ -55,28 +56,56 @@
                       <Component id="jButton1" max="32767" attributes="0"/>
                       <Component id="jScrollPane1" pref="377" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="Buncistxt" min="-2" pref="88" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                          <Component id="Worteltxt" min="-2" pref="88" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                          <Component id="Timuntxt" min="-2" pref="88" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Buncistxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="Worteltxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="Timuntxt" min="-2" pref="88" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="KacangPanjangtxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="Terongtxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="Tomattxt" min="-2" pref="88" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Kubistxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="Kangkungtxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="Cabaitxt" min="-2" pref="88" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="KacangPanjangtxt" min="-2" pref="88" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                          <Component id="Terongtxt" min="-2" pref="88" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                          <Component id="Tomattxt" min="-2" pref="88" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                          <Component id="hargaKubis" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="hargaKangkung" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="hargaCabai" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Kubistxt" min="-2" pref="88" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                          <Component id="Kangkungtxt" min="-2" pref="88" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                          <Component id="Cabaitxt" min="-2" pref="88" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="hargaKacangPanjang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+                          <Component id="hargaTerong" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                          <Component id="hargaTomat" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                          <Component id="hargaBuncis" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                          <Component id="hargaWortel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                          <Component id="hargaTimun" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="93" max="32767" attributes="0"/>
@@ -94,17 +123,35 @@
                               <Component id="Kangkungtxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                               <Component id="Cabaitxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hargaKubis" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaKangkung" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaCabai" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="KacangPanjangtxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                               <Component id="Terongtxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                               <Component id="Tomattxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hargaKacangPanjang" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaTerong" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaTomat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="Buncistxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                               <Component id="Worteltxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
                               <Component id="Timuntxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hargaBuncis" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaWortel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaTimun" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Component id="jScrollPane1" alignment="0" min="-2" pref="373" max="-2" attributes="0"/>
@@ -267,6 +314,51 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="text" type="java.lang.String" value="Submit"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaKubis">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaKangkung">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaCabai">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="12000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaKacangPanjang">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaTerong">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2500"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaTomat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaBuncis">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaWortel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7500"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hargaTimun">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2500"/>
           </Properties>
         </Component>
       </SubComponents>
