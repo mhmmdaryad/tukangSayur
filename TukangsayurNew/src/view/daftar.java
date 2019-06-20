@@ -5,7 +5,7 @@
  */
 package view;
 
-import Model.koneksi;
+import Model.*;
 import java.sql.Connection;
 
 /**
@@ -294,6 +294,20 @@ public class daftar extends javax.swing.JPanel {
 
     private void buttonDaftarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonDaftarActionPerformed
         // TODO add your handling code here:
+        
+        user_model us = new user_model();
+        us.setNama(namatxt.getText());
+        us.setUsername(usernametxt.getText());
+        us.setPassword(passwordtxt.getText());
+        us.setAlamat(alamattxt.getText());
+        us.setEmail(emailtxt.getText());
+        us.setJeniskelamin(jktxt.getSelection());
+        us.setProvinsi(provinsitxt.);
+        us.setTtl(ttltxt.getText());
+        us.setKota(kotatxt.getText());
+        us.setNohp(nohptxt.getText());
+        
+        
         
         try {
             String sql = "INSERT INTO `user` (`username`, `nama`, `noTelp`, `alamat`, `password`, `email`, `ttl`, `jenis kelamin`, `provinsi`, `kota`) ('" ++ "','" + + "','" ++ "')";
