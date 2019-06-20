@@ -88,12 +88,9 @@ public class daftar3 extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        prbutton1 = new javax.swing.JRadioButton();
-        lkbutton1 = new javax.swing.JRadioButton();
         ttltxt1 = new javax.swing.JTextField();
         jScrollPane2 = new javax.swing.JScrollPane();
         alamattxt1 = new javax.swing.JTextArea();
-        provinsitxt1 = new javax.swing.JComboBox<>();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         kotatxt1 = new javax.swing.JTextField();
@@ -101,6 +98,8 @@ public class daftar3 extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        provinsitxt1 = new javax.swing.JTextField();
+        jktxt = new javax.swing.JTextField();
 
         usernametxt.setToolTipText("");
         usernametxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
@@ -218,14 +217,6 @@ public class daftar3 extends javax.swing.JFrame {
         jLabel17.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel17.setText("Tempat, Tanggal Lahir");
 
-        prbutton1.setBackground(new java.awt.Color(255, 255, 255));
-        prbutton1.setFont(new java.awt.Font("Keep Calm Med", 0, 10)); // NOI18N
-        prbutton1.setText("Perempuan");
-
-        lkbutton1.setBackground(new java.awt.Color(255, 255, 255));
-        lkbutton1.setFont(new java.awt.Font("Keep Calm Med", 0, 10)); // NOI18N
-        lkbutton1.setText("Laki-Laki");
-
         ttltxt1.setToolTipText("");
         ttltxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
 
@@ -234,8 +225,6 @@ public class daftar3 extends javax.swing.JFrame {
         alamattxt1.setTabSize(5);
         alamattxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jScrollPane2.setViewportView(alamattxt1);
-
-        provinsitxt1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel18.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel18.setText("Provinsi");
@@ -259,7 +248,12 @@ public class daftar3 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 773, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(provinsitxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jktxt, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(565, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(22, 22, 22)
@@ -272,33 +266,27 @@ public class daftar3 extends javax.swing.JFrame {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel18)
                                             .addComponent(jLabel3)
-                                            .addComponent(namatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(provinsitxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(namatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(74, 74, 74)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addComponent(emailtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(80, 80, 80))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(jLabel19)
-                                                    .addComponent(kotatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGap(129, 129, 129))
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(jLabel19)
+                                                        .addComponent(kotatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                    .addGap(129, 129, 129))
+                                                .addGroup(layout.createSequentialGroup()
+                                                    .addComponent(jLabel13)
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                                             .addGroup(layout.createSequentialGroup()
-                                                .addComponent(jLabel13)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))))
+                                                .addComponent(emailtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(80, 80, 80))))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel15)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addComponent(lkbutton1)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(prbutton1)))
-                                        .addGap(61, 61, 61)
+                                        .addComponent(jLabel15)
+                                        .addGap(161, 161, 161)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(jLabel14)
-                                            .addComponent(nohptxt1, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                                            .addComponent(nohptxt1, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE))))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jLabel16)
                                     .addComponent(jScrollPane2)
@@ -323,43 +311,45 @@ public class daftar3 extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 441, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(138, Short.MAX_VALUE)
+                .addComponent(jktxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(68, 68, 68)
+                .addComponent(provinsitxt1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(187, 187, 187))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(31, 31, 31)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(emailtxt1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jLabel13)
-                                .addComponent(jLabel3))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(namatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(layout.createSequentialGroup()
                             .addComponent(jLabel17)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(ttltxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(44, 44, 44)
+                            .addComponent(ttltxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(44, 44, 44))
+                        .addGroup(layout.createSequentialGroup()
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(emailtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel13)
+                                        .addComponent(jLabel3))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(namatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGap(33, 33, 33)))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(layout.createSequentialGroup()
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(jLabel15)
                                 .addComponent(jLabel14))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(nohptxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(prbutton1)
-                                .addComponent(lkbutton1))
-                            .addGap(36, 36, 36)
+                            .addComponent(nohptxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(42, 42, 42)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel19)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(kotatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jLabel18)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(provinsitxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(jLabel18)))
                         .addGroup(layout.createSequentialGroup()
                             .addComponent(jLabel16)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -369,14 +359,14 @@ public class daftar3 extends javax.swing.JFrame {
                     .addGap(26, 26, 26)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel20)
-                        .addComponent(usernametxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(usernametxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(buttonDaftar1))
                     .addGap(18, 18, 18)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel21)
                         .addComponent(passwordtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(buttonInputData2))
-                    .addContainerGap(32, Short.MAX_VALUE)))
+                    .addContainerGap(29, Short.MAX_VALUE)))
         );
 
         pack();
@@ -386,42 +376,33 @@ public class daftar3 extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         user_model us = new user_model();
-        us.setNama(namatxt.getText());
-        us.setUsername(usernametxt.getText());
-        us.setPassword(passwordtxt.getText());
-        us.setAlamat(alamattxt.getText());
-        us.setEmail(emailtxt.getText());
-        us.setJeniskelamin(lkbutton.getText());
-        us.setJeniskelamin(prbutton.getText());
-        us.setProvinsi((String)provinsitxt.getSelectedItem());
-        us.setTtl(ttltxt.getText());
-        us.setKota(kotatxt.getText());
-        us.setNohp(nohptxt.getText());
+        us.setNama(namatxt1.getText());
+        us.setUsername(usernametxt1.getText());
+        us.setPassword(passwordtxt1.getText());
+        us.setAlamat(alamattxt1.getText());
+        us.setEmail(emailtxt1.getText());
+        us.setJeniskelamin(jktxt.getText());
+        us.setProvinsi(provinsitxt1.getText());
+         us.setTtl(ttltxt1.getText());
+        us.setKota(kotatxt1.getText());
+        us.setNohp(nohptxt1.getText());
         
         try {
-            String sql = "INSERT INTO `user` (`username`, `nama`, `noTelp`, `alamat`, `password`, `jeniskelamin`, `provinsi`, `kota`) VALUES ('" + us.getUsername()+ "','" + us.getNama()+ "','" + us.getNohp() + "','" + us.getAlamat() + "','" + us.getPassword() +"','" + us.getJeniskelamin()+us.getProvinsi()+"','" +"')";
-        java.sql.Connection conn = (Connection) koneksi.connectDB();
+            String sql = "INSERT INTO `user baru`(`username`, `password`, `no hp`, `alamat`, `nama`, `provinsi`, `kota`, `email`, `jenis kelamin`, `ttl`) VALUES ('" + us.getNama()
+                    + "','" + us.getPassword()+ "','" + us.getNohp()+"','" + us.getAlamat()+"','" + us.getNama()+"','" + us.getProvinsi()
+                            +"','" + us.getKota()+"','" + us.getEmail()+"','" + us.getJeniskelamin()+"','" + us.getTtl()+"')";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
-            JOptionPane.showMessageDialog(null, "berhasil terdaftar");
-        }
-        catch (Exception e){
-            
-        }
+            JOptionPane.showMessageDialog(null, "Anda telah terdaftar");
+           
 
-//        try {
-//            String sql = "INSERT INTO `user` (`username`, `nama`, `noTelp`, `alamat`, `password`, `email`, `ttl`, `jenis kelamin`, `provinsi`, `kota`) VALUES('" +us.getUsername()+ "','" +us.getNama() + "','" +us.getNohp()+ "','"+us.getAlamat()+"','"+us.getPassword()+ "','"+us.getEmail()+"','"+us.getTtl()+"','"+us.getJeniskelamin()+"','"+us.getProvinsi()+"','"+us.getKota()+")";
-//            java.sql.Connection conn = (Connection) koneksi.connectDB();
-//            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
-//            pstm.execute();
-//            JOptionPane.showMessageDialog(null, "berhasil terdaftar");
-//
-//        } catch (Exception e) {
-//
-//        }
+        } catch (Exception e) {
+
+        }
         
         dispose();
-        Menu obj = new Menu();
+        Menunew obj = new Menunew();
         obj.setVisible(true);
     }//GEN-LAST:event_buttonDaftar1ActionPerformed
 
@@ -493,10 +474,10 @@ public class daftar3 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JTextField jktxt;
     private javax.swing.JTextField kotatxt;
     private javax.swing.JTextField kotatxt1;
     private javax.swing.JRadioButton lkbutton;
-    private javax.swing.JRadioButton lkbutton1;
     private javax.swing.JTextField namatxt;
     private javax.swing.JTextField namatxt1;
     private javax.swing.JTextField nohptxt;
@@ -504,9 +485,8 @@ public class daftar3 extends javax.swing.JFrame {
     private javax.swing.JTextField passwordtxt;
     private javax.swing.JTextField passwordtxt1;
     private javax.swing.JRadioButton prbutton;
-    private javax.swing.JRadioButton prbutton1;
     private javax.swing.JComboBox<String> provinsitxt;
-    private javax.swing.JComboBox<String> provinsitxt1;
+    private javax.swing.JTextField provinsitxt1;
     private javax.swing.JTextField ttltxt;
     private javax.swing.JTextField ttltxt1;
     private javax.swing.JTextField usernametxt;
