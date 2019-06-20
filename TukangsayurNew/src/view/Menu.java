@@ -42,6 +42,15 @@ public class Menu extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        gmbrtomat = new javax.swing.JLabel();
+        gmbrkubis = new javax.swing.JLabel();
+        gmbrkangkung = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        gmbrterong = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         Kubistxt = new javax.swing.JButton();
         Kangkungtxt = new javax.swing.JButton();
         Cabaitxt = new javax.swing.JButton();
@@ -67,6 +76,34 @@ public class Menu extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(900, 600));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        gmbrtomat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/tomat.png"))); // NOI18N
+        jPanel1.add(gmbrtomat, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 210, 90, 100));
+
+        gmbrkubis.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/kubis.png"))); // NOI18N
+        jPanel1.add(gmbrkubis, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 90, 100));
+
+        gmbrkangkung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/kangkung.png"))); // NOI18N
+        jPanel1.add(gmbrkangkung, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 60, 90, 100));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/tauge.png"))); // NOI18N
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, 100, 90));
+
+        gmbrterong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/terong.png"))); // NOI18N
+        jPanel1.add(gmbrterong, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 220, 90, 90));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/wortel.png"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 340, 90, 90));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/cabai.png"))); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 60, 90, 100));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/buncis.png"))); // NOI18N
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 340, 100, 90));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/timun.png"))); // NOI18N
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 340, -1, 90));
 
         Kubistxt.setText("Kubis");
         Kubistxt.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -75,30 +112,37 @@ public class Menu extends javax.swing.JFrame {
                 KubistxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Kubistxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 69, 88, 81));
 
-        Kangkungtxt.setText("Kangkung");
+        Kangkungtxt.setBackground(new java.awt.Color(255, 255, 255));
+        Kangkungtxt.setText("kangkung");
+        Kangkungtxt.setAlignmentY(0.0F);
+        Kangkungtxt.setIconTextGap(0);
+        Kangkungtxt.setOpaque(false);
         Kangkungtxt.setPreferredSize(new java.awt.Dimension(50, 50));
         Kangkungtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 KangkungtxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Kangkungtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 73, 80, 80));
 
-        Cabaitxt.setText("Cabai");
         Cabaitxt.setPreferredSize(new java.awt.Dimension(50, 50));
         Cabaitxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CabaitxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Cabaitxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 70, 88, 81));
 
-        KacangPanjangtxt.setText("Kacang Panjang");
+        KacangPanjangtxt.setText("Toge");
         KacangPanjangtxt.setPreferredSize(new java.awt.Dimension(50, 50));
         KacangPanjangtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 KacangPanjangtxtActionPerformed(evt);
             }
         });
+        jPanel1.add(KacangPanjangtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(458, 231, 80, 70));
 
         Terongtxt.setText("Terong");
         Terongtxt.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -107,6 +151,7 @@ public class Menu extends javax.swing.JFrame {
                 TerongtxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Terongtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(598, 221, 80, 80));
 
         Tomattxt.setText("Tomat");
         Tomattxt.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -115,6 +160,7 @@ public class Menu extends javax.swing.JFrame {
                 TomattxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Tomattxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 220, 80, 80));
 
         Buncistxt.setText("Buncis");
         Buncistxt.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -123,6 +169,7 @@ public class Menu extends javax.swing.JFrame {
                 BuncistxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Buncistxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 350, 88, 81));
 
         Worteltxt.setText("Wortel");
         Worteltxt.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -131,6 +178,7 @@ public class Menu extends javax.swing.JFrame {
                 WorteltxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Worteltxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 350, 88, 81));
 
         Timuntxt.setText("Timun");
         Timuntxt.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -139,6 +187,7 @@ public class Menu extends javax.swing.JFrame {
                 TimuntxtActionPerformed(evt);
             }
         });
+        jPanel1.add(Timuntxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 350, 88, 81));
 
         TableOrder.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -153,120 +202,37 @@ public class Menu extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(TableOrder);
 
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 67, 377, 373));
+
         jButton1.setText("Submit");
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 524, 377, -1));
 
         hargaKubis.setText("3000");
+        jPanel1.add(hargaKubis, new org.netbeans.lib.awtextra.AbsoluteConstraints(481, 156, -1, -1));
 
         hargaKangkung.setText("3000");
+        jPanel1.add(hargaKangkung, new org.netbeans.lib.awtextra.AbsoluteConstraints(626, 156, -1, -1));
 
         hargaCabai.setText("12000");
+        jPanel1.add(hargaCabai, new org.netbeans.lib.awtextra.AbsoluteConstraints(757, 156, -1, -1));
 
         hargaKacangPanjang.setText("2000");
+        jPanel1.add(hargaKacangPanjang, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 310, -1, -1));
 
         hargaTerong.setText("2500");
+        jPanel1.add(hargaTerong, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 310, -1, -1));
 
         hargaTomat.setText("6000");
+        jPanel1.add(hargaTomat, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 310, -1, -1));
 
         hargaBuncis.setText("7000");
+        jPanel1.add(hargaBuncis, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 430, -1, -1));
 
         hargaWortel.setText("7500");
+        jPanel1.add(hargaWortel, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 430, -1, -1));
 
         hargaTimun.setText("2500");
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 377, Short.MAX_VALUE))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(54, 54, 54)
-                                .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(39, 39, 39)
-                                .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(54, 54, 54)
-                                .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(39, 39, 39)
-                                .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(54, 54, 54)
-                                .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(39, 39, 39)
-                                .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(85, 85, 85)
-                        .addComponent(hargaKubis)
-                        .addGap(117, 117, 117)
-                        .addComponent(hargaKangkung)
-                        .addGap(103, 103, 103)
-                        .addComponent(hargaCabai))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(89, 89, 89)
-                        .addComponent(hargaKacangPanjang)
-                        .addGap(114, 114, 114)
-                        .addComponent(hargaTerong)
-                        .addGap(104, 104, 104)
-                        .addComponent(hargaTomat))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(81, 81, 81)
-                        .addComponent(hargaBuncis)
-                        .addGap(124, 124, 124)
-                        .addComponent(hargaWortel)
-                        .addGap(105, 105, 105)
-                        .addComponent(hargaTimun)))
-                .addContainerGap(93, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(93, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Kubistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Kangkungtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Cabaitxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(hargaKubis)
-                            .addComponent(hargaKangkung)
-                            .addComponent(hargaCabai))
-                        .addGap(30, 30, 30)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(KacangPanjangtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Terongtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Tomattxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(hargaKacangPanjang)
-                            .addComponent(hargaTerong)
-                            .addComponent(hargaTomat))
-                        .addGap(30, 30, 30)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Buncistxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Worteltxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Timuntxt, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(hargaBuncis)
-                            .addComponent(hargaWortel)
-                            .addComponent(hargaTimun)))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(42, 42, 42)
-                .addComponent(jButton1)
-                .addContainerGap(69, Short.MAX_VALUE))
-        );
+        jPanel1.add(hargaTimun, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 430, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -437,8 +403,8 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
-        try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +KacangPanjangtxt.getText()+ "','" + KacangPanjang.getText()+ "','" +dateOne+ "')";
+       try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +KacangPanjangtxt.getText()+ "','" + hargaKacangPanjang.getText()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -576,6 +542,10 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton Timuntxt;
     private javax.swing.JButton Tomattxt;
     private javax.swing.JButton Worteltxt;
+    private javax.swing.JLabel gmbrkangkung;
+    private javax.swing.JLabel gmbrkubis;
+    private javax.swing.JLabel gmbrterong;
+    private javax.swing.JLabel gmbrtomat;
     private javax.swing.JLabel hargaBuncis;
     private javax.swing.JLabel hargaCabai;
     private javax.swing.JLabel hargaKacangPanjang;
@@ -586,6 +556,11 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel hargaTomat;
     private javax.swing.JLabel hargaWortel;
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
