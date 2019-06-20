@@ -5,6 +5,9 @@
  */
 package view;
 
+import Model.*;
+import java.sql.Connection;
+
 /**
  *
  * @author NB HP PAVILION
@@ -18,6 +21,21 @@ public class daftar extends javax.swing.JPanel {
         initComponents();
     }
 
+    String getGender(){
+        if(lkbutton.isSelected())
+    {
+        return "Laki-laki";
+    }
+    else if(prbutton.isSelected())
+    {
+        return "Perempuan";
+    }
+    else
+    {
+        return null;
+    }
+
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -39,8 +57,8 @@ public class daftar extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
+        prbutton = new javax.swing.JRadioButton();
+        lkbutton = new javax.swing.JRadioButton();
         ttltxt = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         alamattxt = new javax.swing.JTextArea();
@@ -54,7 +72,7 @@ public class daftar extends javax.swing.JPanel {
         usernametxt = new javax.swing.JTextField();
         passwordtxt = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        buttonInputData = new javax.swing.JButton();
+        buttonDaftar = new javax.swing.JButton();
         buttonInputData1 = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -71,27 +89,12 @@ public class daftar extends javax.swing.JPanel {
 
         namatxt.setToolTipText("");
         namatxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        namatxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                namatxtActionPerformed(evt);
-            }
-        });
 
         emailtxt.setToolTipText("");
         emailtxt.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
-        emailtxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                emailtxtActionPerformed(evt);
-            }
-        });
 
         nohptxt.setToolTipText("");
         nohptxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        nohptxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nohptxtActionPerformed(evt);
-            }
-        });
 
         jLabel5.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel5.setText("Jenis Kelamin");
@@ -102,33 +105,18 @@ public class daftar extends javax.swing.JPanel {
         jLabel7.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel7.setText("Tempat, Tanggal Lahir");
 
-        jRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        jktxt.add(jRadioButton1);
-        jRadioButton1.setFont(new java.awt.Font("Keep Calm Med", 0, 10)); // NOI18N
-        jRadioButton1.setText("Perempuan");
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
-            }
-        });
+        prbutton.setBackground(new java.awt.Color(255, 255, 255));
+        jktxt.add(prbutton);
+        prbutton.setFont(new java.awt.Font("Keep Calm Med", 0, 10)); // NOI18N
+        prbutton.setText("Perempuan");
 
-        jRadioButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jktxt.add(jRadioButton2);
-        jRadioButton2.setFont(new java.awt.Font("Keep Calm Med", 0, 10)); // NOI18N
-        jRadioButton2.setText("Laki-Laki");
-        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton2ActionPerformed(evt);
-            }
-        });
+        lkbutton.setBackground(new java.awt.Color(255, 255, 255));
+        jktxt.add(lkbutton);
+        lkbutton.setFont(new java.awt.Font("Keep Calm Med", 0, 10)); // NOI18N
+        lkbutton.setText("Laki-Laki");
 
         ttltxt.setToolTipText("");
         ttltxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        ttltxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ttltxtActionPerformed(evt);
-            }
-        });
 
         alamattxt.setColumns(20);
         alamattxt.setRows(5);
@@ -137,11 +125,6 @@ public class daftar extends javax.swing.JPanel {
         jScrollPane1.setViewportView(alamattxt);
 
         provinsitxt.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        provinsitxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                provinsitxtActionPerformed(evt);
-            }
-        });
 
         jLabel8.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel8.setText("Provinsi");
@@ -151,11 +134,6 @@ public class daftar extends javax.swing.JPanel {
 
         kotatxt.setToolTipText("");
         kotatxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        kotatxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                kotatxtActionPerformed(evt);
-            }
-        });
 
         jLabel10.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel10.setText("Username");
@@ -165,25 +143,20 @@ public class daftar extends javax.swing.JPanel {
 
         usernametxt.setToolTipText("");
         usernametxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        usernametxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                usernametxtActionPerformed(evt);
-            }
-        });
 
         passwordtxt.setToolTipText("");
         passwordtxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        passwordtxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                passwordtxtActionPerformed(evt);
-            }
-        });
 
         jLabel12.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel12.setText("Email");
 
-        buttonInputData.setBackground(new java.awt.Color(255, 255, 255));
-        buttonInputData.setText("Daftar");
+        buttonDaftar.setBackground(new java.awt.Color(255, 255, 255));
+        buttonDaftar.setText("Daftar");
+        buttonDaftar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonDaftarActionPerformed(evt);
+            }
+        });
 
         buttonInputData1.setBackground(new java.awt.Color(255, 255, 255));
         buttonInputData1.setText("Batal");
@@ -226,9 +199,9 @@ public class daftar extends javax.swing.JPanel {
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel5)
                                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton2)
+                                                .addComponent(lkbutton)
                                                 .addGap(18, 18, 18)
-                                                .addComponent(jRadioButton1)))
+                                                .addComponent(prbutton)))
                                         .addGap(61, 61, 61)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(jLabel4)
@@ -249,7 +222,7 @@ public class daftar extends javax.swing.JPanel {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(usernametxt, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(184, 184, 184)
-                                .addComponent(buttonInputData, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(buttonDaftar, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(passwordtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -259,7 +232,7 @@ public class daftar extends javax.swing.JPanel {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(32, Short.MAX_VALUE)
+                .addContainerGap(33, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel3)
@@ -287,8 +260,8 @@ public class daftar extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(nohptxt, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jRadioButton1)
-                            .addComponent(jRadioButton2))
+                            .addComponent(prbutton)
+                            .addComponent(lkbutton))
                         .addGap(36, 36, 36)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -309,13 +282,13 @@ public class daftar extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
                     .addComponent(usernametxt, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(buttonInputData))
+                    .addComponent(buttonDaftar))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11)
                     .addComponent(passwordtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(buttonInputData1))
-                .addContainerGap(106, Short.MAX_VALUE))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -334,50 +307,41 @@ public class daftar extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void nohptxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nohptxtActionPerformed
+    private void buttonDaftarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonDaftarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_nohptxtActionPerformed
-
-    private void emailtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailtxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_emailtxtActionPerformed
-
-    private void namatxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_namatxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_namatxtActionPerformed
-
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
-
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
-
-    private void provinsitxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_provinsitxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_provinsitxtActionPerformed
-
-    private void kotatxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kotatxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_kotatxtActionPerformed
-
-    private void usernametxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernametxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_usernametxtActionPerformed
-
-    private void passwordtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordtxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_passwordtxtActionPerformed
-
-    private void ttltxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ttltxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ttltxtActionPerformed
+        
+        user_model us = new user_model();
+        us.setNama(namatxt.getText());
+        us.setUsername(usernametxt.getText());
+        us.setPassword(passwordtxt.getText());
+        us.setAlamat(alamattxt.getText());
+        us.setEmail(emailtxt.getText());
+        us.setJeniskelamin(lkbutton.getText());
+        us.setJeniskelamin(prbutton.getText());
+        us.setProvinsi((String)provinsitxt.getSelectedItem());
+        us.setTtl(ttltxt.getText());
+        us.setKota(kotatxt.getText());
+        us.setNohp(nohptxt.getText());
+        
+        
+        
+        try {
+            String sql = "INSERT INTO `user` (`username`, `nama`, `noTelp`, `alamat`, `password`, `email`, `ttl`, `jenis kelamin`, `provinsi`, `kota`) "
+             + "('" +us.getUsername()+ "','" +us.getNama() + "','" +us.getNohp()+ "','"+us.getAlamat()+"','"+us.getPassword()+ "','"+us.getEmail()+"','"+us.getTtl()+"','"+us.getJeniskelamin()+"','"+us.getProvinsi()+"','"+us.getKota()+")";
+            java.sql.Connection conn = (Connection) koneksi.connectDB();
+            java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.execute();
+           
+         
+        } catch (Exception e) {
+            
+        }
+    }//GEN-LAST:event_buttonDaftarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextArea alamattxt;
-    private javax.swing.JButton buttonInputData;
+    private javax.swing.JButton buttonDaftar;
     private javax.swing.JButton buttonInputData1;
     private javax.swing.JTextField emailtxt;
     private javax.swing.Box.Filler filler1;
@@ -393,15 +357,15 @@ public class daftar extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.ButtonGroup jktxt;
     private javax.swing.JTextField kotatxt;
+    private javax.swing.JRadioButton lkbutton;
     private javax.swing.JTextField namatxt;
     private javax.swing.JTextField nohptxt;
     private javax.swing.JTextField passwordtxt;
+    private javax.swing.JRadioButton prbutton;
     private javax.swing.JComboBox<String> provinsitxt;
     private javax.swing.JTextField ttltxt;
     private javax.swing.JTextField usernametxt;

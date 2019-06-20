@@ -47,6 +47,7 @@
         </Property>
       </Properties>
 
+<<<<<<< HEAD
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
@@ -159,6 +160,125 @@
             </Constraint>
           </Constraints>
         </Component>
+=======
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButton1" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" pref="377" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Buncistxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="Worteltxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="Timuntxt" min="-2" pref="88" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="KacangPanjangtxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="Terongtxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="Tomattxt" min="-2" pref="88" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Kubistxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="Kangkungtxt" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="Cabaitxt" min="-2" pref="88" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                          <Component id="hargaKubis" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="hargaKangkung" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="hargaCabai" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="hargaKacangPanjang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+                          <Component id="hargaTerong" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                          <Component id="hargaTomat" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                          <Component id="hargaBuncis" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                          <Component id="hargaWortel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                          <Component id="hargaTimun" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="93" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace pref="92" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Kubistxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="Kangkungtxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="Cabaitxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hargaKubis" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaKangkung" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaCabai" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="KacangPanjangtxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="Terongtxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="Tomattxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hargaKacangPanjang" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaTerong" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaTomat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Buncistxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="Worteltxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="Timuntxt" alignment="3" min="-2" pref="81" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="hargaBuncis" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaWortel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="hargaTimun" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane1" alignment="0" min="-2" pref="373" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="70" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         <Component class="javax.swing.JButton" name="Kubistxt">
           <Properties>
             <Property name="text" type="java.lang.String" value="Kubis"/>
@@ -169,6 +289,7 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KubistxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="450" y="69" width="88" height="81"/>
@@ -184,6 +305,12 @@
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="iconTextGap" type="int" value="0"/>
             <Property name="opaque" type="boolean" value="false"/>
+=======
+        </Component>
+        <Component class="javax.swing.JButton" name="Kangkungtxt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kangkung"/>
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[50, 50]"/>
             </Property>
@@ -191,6 +318,7 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KangkungtxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="590" y="73" width="80" height="80"/>
@@ -199,6 +327,12 @@
         </Component>
         <Component class="javax.swing.JButton" name="Cabaitxt">
           <Properties>
+=======
+        </Component>
+        <Component class="javax.swing.JButton" name="Cabaitxt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cabai"/>
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[50, 50]"/>
             </Property>
@@ -206,6 +340,7 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CabaitxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="70" width="88" height="81"/>
@@ -215,6 +350,12 @@
         <Component class="javax.swing.JButton" name="KacangPanjangtxt">
           <Properties>
             <Property name="text" type="java.lang.String" value="Toge"/>
+=======
+        </Component>
+        <Component class="javax.swing.JButton" name="KacangPanjangtxt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kacang Panjang"/>
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[50, 50]"/>
             </Property>
@@ -222,11 +363,14 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KacangPanjangtxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="458" y="231" width="80" height="70"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JButton" name="Terongtxt">
           <Properties>
@@ -238,11 +382,14 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TerongtxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="598" y="221" width="80" height="80"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JButton" name="Tomattxt">
           <Properties>
@@ -254,11 +401,14 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TomattxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="740" y="220" width="80" height="80"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JButton" name="Buncistxt">
           <Properties>
@@ -270,11 +420,14 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BuncistxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="450" y="350" width="88" height="81"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JButton" name="Worteltxt">
           <Properties>
@@ -286,11 +439,14 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="WorteltxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="590" y="350" width="88" height="81"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JButton" name="Timuntxt">
           <Properties>
@@ -302,21 +458,27 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TimuntxtActionPerformed"/>
           </Events>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="740" y="350" width="88" height="81"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
           <AuxValues>
             <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
           </AuxValues>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="19" y="67" width="377" height="373"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
@@ -365,101 +527,131 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Submit"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="19" y="524" width="377" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaKubis">
           <Properties>
             <Property name="text" type="java.lang.String" value="3000"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="481" y="156" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaKangkung">
           <Properties>
             <Property name="text" type="java.lang.String" value="3000"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="626" y="156" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaCabai">
           <Properties>
             <Property name="text" type="java.lang.String" value="12000"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="757" y="156" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaKacangPanjang">
           <Properties>
             <Property name="text" type="java.lang.String" value="2000"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="480" y="310" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaTerong">
           <Properties>
             <Property name="text" type="java.lang.String" value="2500"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="620" y="310" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaTomat">
           <Properties>
             <Property name="text" type="java.lang.String" value="6000"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="770" y="310" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaBuncis">
           <Properties>
             <Property name="text" type="java.lang.String" value="7000"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="480" y="430" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaWortel">
           <Properties>
             <Property name="text" type="java.lang.String" value="7500"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="620" y="430" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
         <Component class="javax.swing.JLabel" name="hargaTimun">
           <Properties>
             <Property name="text" type="java.lang.String" value="2500"/>
           </Properties>
+<<<<<<< HEAD
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="770" y="430" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
+=======
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
         </Component>
       </SubComponents>
     </Container>

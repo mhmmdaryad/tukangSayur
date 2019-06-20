@@ -255,12 +255,16 @@ public class Menu extends javax.swing.JFrame {
 
     private void TimuntxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TimuntxtActionPerformed
         Calendar c1 = Calendar.getInstance(); 
-        Date dateOne = c1.getTime(); 
-        int jumlah;
-        String input;
+        Date dateOne = c1.getTime();
+        
+        order_model or = new order_model();
+        or.setNamaSayur(Timuntxt.getText());
+        or.setHargaSayur(hargaTimun.getText());
         
         String a = Timuntxt.getText();
         String b = hargaTimun.getText();
+        int jumlah;
+        String input;
         input = JOptionPane.showInputDialog("Masukkan jumlah : ");
         jumlah = Integer.parseInt(input);
         Date c = dateOne;
@@ -268,7 +272,7 @@ public class Menu extends javax.swing.JFrame {
         mdl.addRow(x);
         
             try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Timuntxt.getText()+ "','" + hargaTimun.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -283,6 +287,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Worteltxt.getText());
+        or.setHargaSayur(hargaWortel.getText());
+        
         String a = Worteltxt.getText();
         String b = hargaWortel.getText();
         
@@ -296,7 +304,7 @@ public class Menu extends javax.swing.JFrame {
         mdl.addRow(x);
         
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Worteltxt.getText()+ "','" + hargaWortel.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -311,6 +319,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Buncistxt.getText());
+        or.setHargaSayur(hargaBuncis.getText());
+        
         String a = Buncistxt.getText();
         String b = hargaBuncis.getText();
         
@@ -323,7 +335,7 @@ public class Menu extends javax.swing.JFrame {
         Object[] x = {a, b, c};
         mdl.addRow(x);
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Buncistxt.getText()+ "','" + hargaBuncis.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -338,6 +350,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Tomattxt.getText());
+        or.setHargaSayur(hargaTomat.getText());
+        
         String a = Tomattxt.getText();
         String b = hargaTomat.getText();
         
@@ -350,7 +366,7 @@ public class Menu extends javax.swing.JFrame {
         Object[] x = {a, b, c};
         mdl.addRow(x);
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Tomattxt.getText()+ "','" + hargaTomat.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -365,6 +381,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Terongtxt.getText());
+        or.setHargaSayur(hargaTerong.getText());
+        
         String a = Terongtxt.getText();
         String b = hargaTerong.getText();
         
@@ -377,7 +397,7 @@ public class Menu extends javax.swing.JFrame {
         Object[] x = {a, b, c};
         mdl.addRow(x);
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Terongtxt.getText()+ "','" + hargaTerong.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -392,6 +412,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(KacangPanjangtxt.getText());
+        or.setHargaSayur(hargaKacangPanjang.getText());
+        
         String a = KacangPanjangtxt.getText();
         String b = hargaKacangPanjang.getText();
         
@@ -403,8 +427,13 @@ public class Menu extends javax.swing.JFrame {
         Date c = dateOne;
         Object[] x = {a, b, c};
         mdl.addRow(x);
+<<<<<<< HEAD
        try {
             String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +KacangPanjangtxt.getText()+ "','" + hargaKacangPanjang.getText()+ "','" +dateOne+ "')";
+=======
+        try {
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
+>>>>>>> 8d7d5824e9b21d34995ebaa0f5d063282d15f188
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -419,6 +448,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Cabaitxt.getText());
+        or.setHargaSayur(hargaCabai.getText());
+        
         String a = Cabaitxt.getText();
         String b = hargaCabai.getText();
         
@@ -431,7 +464,7 @@ public class Menu extends javax.swing.JFrame {
         Object[] x = {a, b, c};
         mdl.addRow(x); 
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Cabaitxt.getText()+ "','" + hargaCabai.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -446,6 +479,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Kangkungtxt.getText());
+        or.setHargaSayur(hargaKangkung.getText());
+        
         String a = Kangkungtxt.getText();
         String b = hargaKangkung.getText();
         
@@ -458,7 +495,7 @@ public class Menu extends javax.swing.JFrame {
         Object[] x = {a, b, c};
         mdl.addRow(x);
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Kangkungtxt.getText()+ "','" + hargaKangkung.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();
@@ -473,6 +510,10 @@ public class Menu extends javax.swing.JFrame {
         Calendar c1 = Calendar.getInstance(); 
         Date dateOne = c1.getTime(); 
         
+        order_model or = new order_model();
+        or.setNamaSayur(Kubistxt.getText());
+        or.setHargaSayur(hargaKubis.getText());
+        
         String a = Kubistxt.getText();
         String b = hargaKubis.getText();
         
@@ -485,7 +526,7 @@ public class Menu extends javax.swing.JFrame {
         Object[] x = {a, b, c};
         mdl.addRow(x);
         try {
-            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +Kubistxt.getText()+ "','" + hargaKubis.getText()+ "','" +dateOne+ "')";
+            String sql = "INSERT INTO `data sayur` (`Nama`, `Harga`,`Waktu`) VALUES ('" +or.getNamaSayur()+ "','" + or.getHargaSayur()+ "','" +dateOne+ "')";
             java.sql.Connection conn = (Connection) koneksi.connectDB();
             java.sql.PreparedStatement pstm = conn.prepareStatement(sql);
             pstm.execute();

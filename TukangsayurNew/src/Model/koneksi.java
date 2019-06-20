@@ -22,7 +22,7 @@ public class koneksi {
             String url = "jdbc:mysql://localhost:3306/tukangsayur";
             String user = "root";
             String pass = "";
-            DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+      //      DriverManager.registerDriver(new com.mysql.jdbc.Driver());
             MySQLConnection = (Connection) DriverManager.getConnection(url, user, pass);
 
         } catch (SQLException e) {
