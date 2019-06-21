@@ -181,11 +181,11 @@ public class daftar3 extends javax.swing.JFrame {
 
         usernametxt1.setToolTipText("");
         usernametxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        getContentPane().add(usernametxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 340, 175, 20));
+        getContentPane().add(usernametxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 340, 175, 25));
 
         passwordtxt1.setToolTipText("");
         passwordtxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
-        getContentPane().add(passwordtxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 382, 175, 20));
+        getContentPane().add(passwordtxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 382, 175, 25));
 
         jLabel13.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel13.setText("Email");
