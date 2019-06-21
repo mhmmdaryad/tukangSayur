@@ -102,10 +102,10 @@ public class daftar3 extends javax.swing.JFrame {
         jktxt = new javax.swing.JTextField();
 
         usernametxt.setToolTipText("");
-        usernametxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        usernametxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
 
         passwordtxt.setToolTipText("");
-        passwordtxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        passwordtxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
 
         jLabel12.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel12.setText("Email");
@@ -117,7 +117,7 @@ public class daftar3 extends javax.swing.JFrame {
         buttonDaftar.setText("Daftar");
 
         namatxt.setToolTipText("");
-        namatxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        namatxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
 
         buttonInputData1.setBackground(new java.awt.Color(255, 255, 255));
         buttonInputData1.setText("Batal");
@@ -126,7 +126,7 @@ public class daftar3 extends javax.swing.JFrame {
         emailtxt.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         nohptxt.setToolTipText("");
-        nohptxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        nohptxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel5.setText("Jenis Kelamin");
@@ -146,7 +146,7 @@ public class daftar3 extends javax.swing.JFrame {
         lkbutton.setText("Laki-Laki");
 
         ttltxt.setToolTipText("");
-        ttltxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        ttltxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
 
         alamattxt.setColumns(20);
         alamattxt.setRows(5);
@@ -163,7 +163,7 @@ public class daftar3 extends javax.swing.JFrame {
         jLabel9.setText("Kota");
 
         kotatxt.setToolTipText("");
-        kotatxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        kotatxt.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
 
         jLabel10.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel10.setText("Username");
@@ -175,18 +175,25 @@ public class daftar3 extends javax.swing.JFrame {
         jLabel2.setText("Nama");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(980, 640));
+        setPreferredSize(new java.awt.Dimension(900, 600));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         usernametxt1.setToolTipText("");
-        usernametxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        usernametxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
+        getContentPane().add(usernametxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 340, 175, 20));
 
         passwordtxt1.setToolTipText("");
-        passwordtxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        passwordtxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
+        getContentPane().add(passwordtxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 382, 175, 20));
 
         jLabel13.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel13.setText("Email");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 31, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel14.setText("No. Telp");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 118, -1, -1));
 
         buttonDaftar1.setBackground(new java.awt.Color(255, 255, 255));
         buttonDaftar1.setText("Daftar");
@@ -195,30 +202,39 @@ public class daftar3 extends javax.swing.JFrame {
                 buttonDaftar1ActionPerformed(evt);
             }
         });
+        getContentPane().add(buttonDaftar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(539, 340, 103, -1));
 
         namatxt1.setToolTipText("");
-        namatxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        namatxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
+        getContentPane().add(namatxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 55, 170, 30));
 
         buttonInputData2.setBackground(new java.awt.Color(255, 255, 255));
         buttonInputData2.setText("Batal");
+        getContentPane().add(buttonInputData2, new org.netbeans.lib.awtextra.AbsoluteConstraints(539, 381, 103, -1));
 
         emailtxt1.setToolTipText("");
         emailtxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        getContentPane().add(emailtxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 55, 170, 30));
 
         nohptxt1.setToolTipText("");
-        nohptxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        nohptxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
+        getContentPane().add(nohptxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 140, 175, 31));
 
         jLabel15.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel15.setText("Jenis Kelamin");
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
         jLabel16.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel16.setText("Alamat Lengkap");
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 120, -1, -1));
 
         jLabel17.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel17.setText("Tempat, Tanggal Lahir");
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(526, 31, -1, -1));
 
         ttltxt1.setToolTipText("");
-        ttltxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        ttltxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
+        getContentPane().add(ttltxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(523, 55, 170, 30));
 
         alamattxt1.setColumns(20);
         alamattxt1.setRows(5);
@@ -226,148 +242,38 @@ public class daftar3 extends javax.swing.JFrame {
         alamattxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jScrollPane2.setViewportView(alamattxt1);
 
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 140, 170, 120));
+
         jLabel18.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel18.setText("Provinsi");
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, -1, -1));
 
         jLabel19.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel19.setText("Kota");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 210, -1, -1));
 
         kotatxt1.setToolTipText("");
-        kotatxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(150, 203, 61))); // NOI18N
+        kotatxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(150, 203, 61))); // NOI18N
+        getContentPane().add(kotatxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 230, 170, 30));
+        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 312, 674, -1));
 
         jLabel20.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel20.setText("Username");
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(74, 342, -1, -1));
 
         jLabel21.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel21.setText("Password");
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(74, 383, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Keep Calm Med", 0, 12)); // NOI18N
         jLabel3.setText("Nama");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 31, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(provinsitxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jktxt, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(565, Short.MAX_VALUE))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(22, 22, 22)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jSeparator2)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel18)
-                                            .addComponent(jLabel3)
-                                            .addComponent(namatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(74, 74, 74)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jLabel19)
-                                                        .addComponent(kotatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                    .addGap(129, 129, 129))
-                                                .addGroup(layout.createSequentialGroup()
-                                                    .addComponent(jLabel13)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addComponent(emailtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(80, 80, 80))))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel15)
-                                        .addGap(161, 161, 161)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jLabel14)
-                                            .addComponent(nohptxt1, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE))))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel16)
-                                    .addComponent(jScrollPane2)
-                                    .addComponent(jLabel17)
-                                    .addComponent(ttltxt1))))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(52, 52, 52)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel20)
-                                .addComponent(jLabel21))
-                            .addGap(47, 47, 47)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(usernametxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(184, 184, 184)
-                                    .addComponent(buttonDaftar1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(passwordtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(buttonInputData2, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addContainerGap(22, Short.MAX_VALUE)))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(138, Short.MAX_VALUE)
-                .addComponent(jktxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(68, 68, 68)
-                .addComponent(provinsitxt1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(187, 187, 187))
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(31, 31, 31)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel17)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(ttltxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(44, 44, 44))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(emailtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jLabel13)
-                                        .addComponent(jLabel3))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(namatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGap(33, 33, 33)))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel15)
-                                .addComponent(jLabel14))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(nohptxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(42, 42, 42)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jLabel19)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(kotatxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(jLabel18)))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel16)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGap(49, 49, 49)
-                    .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(26, 26, 26)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel20)
-                        .addComponent(usernametxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(buttonDaftar1))
-                    .addGap(18, 18, 18)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel21)
-                        .addComponent(passwordtxt1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(buttonInputData2))
-                    .addContainerGap(29, Short.MAX_VALUE)))
-        );
+        provinsitxt1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        getContentPane().add(provinsitxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 230, 170, 30));
+
+        jktxt.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        getContentPane().add(jktxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 140, 170, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
