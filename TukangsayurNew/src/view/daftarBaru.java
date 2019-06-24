@@ -205,7 +205,7 @@ daftarBaru daftar= new daftarBaru();
 
     private void buttonInputData2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonInputData2ActionPerformed
         // TODO add your handling code here:
-        daftar.SetVisible(false);
+       // daftar.SetVisible(false);
     }//GEN-LAST:event_buttonInputData2ActionPerformed
 
     public static void main(String args[]) {
